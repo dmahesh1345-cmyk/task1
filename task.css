@@ -1,0 +1,46 @@
+body {
+  background-color: #e9f1ea;
+  color: #d5dcd6;       
+}
+header {
+  background-color: #066514;
+  color: #060606;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  width: 70px;
+  height: auto;
+  display: block;
+}
+header nav a {
+  color: #101010;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;;
+}
+header nav a:hover {
+  color: #7e0719;
+}
+.hero{
+    color: #000601;
+    text-align: center;
+    padding: 50px;
+    background-image: url(https://as2.ftcdn.net/jpg/11/13/64/53/1000_F_1113645396_qF5ONYLJVui4m2vdNyd9j32YvYaY5iWn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero .p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hero h1 {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.hero h1:hover {
+    transform: scale(1.2);
+    color: #7e0719;
+
+}
